@@ -1,0 +1,76 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: #36454F;
+    color: #FFFFFF;
+}
+h1 {
+    font-size: 2rem;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+td {
+ font-size: 1.2rem;
+}
+th {
+    font-size: 1.3rem;
+}
+#addButton {
+    background-color: rgb(7, 136, 14);
+    padding: 6px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    font-weight: 500;
+    border-color: rgb(7, 136, 14);
+}
+.resetButton {
+    color: #FFFFFF;
+    background-color: rgb(7, 136, 14);
+    padding: 6px;
+    border-color:rgb(7, 136, 14);
+}
+.deleteButton {
+    padding: 2px;
+    background-color: red;
+    border-color: red;
+    color: #FFFFFF;
+}
+#editButton {
+    background-color: rgb(7, 136, 14);
+    border-color:rgb(7, 136, 14);
+    color: #FFFFFF;
+}
+.container {
+    box-shadow: 0 0 .7px #ccc;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 35px;
+    padding-bottom: 55px;
+}
+input {
+    width: 100%;
+    padding: 4px;
+}
+label {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.div {
+    margin-top: 7px;
+}
+.amountInputDiv {
+    margin-bottom: 7px;
+}
+tr:nth-child(even) {
+    background: rgb(100, 99, 99)
+}

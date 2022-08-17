@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Expense Tracker</title>
-    <link rel="stylesheet" href="expensetracker.css">
-</head>
-<body>
+    <link rel="stylesheet" href="expensetracker.css" />
+  </head>
+  <body>
     <h1>My Expense Tracker</h1>
     <div class="container">
-        <section class="inputFieldsSection">
-            <div class="nameInputDiv div">
-                <label>Product Name:</label>
-                <input placeholder="Add item name" id="nameInput" class="fields">
-            </div>
-            <div class="dateInputDiv div">
-                <label for="Date" >Date:</label>
-                <input type="date" class="fields" id="dateInput">
-            </div>
-            <div class="amountInputDiv div">
-                <label for="number">Amount:</label>
-                <input for="number" class="fields" placeholder="Amount for Item" id="amountInput">
-            </div>
-            <button id="addButton" draggable="true">Add Expense</button>
-            <button id="resetButton" class="resetButton" onclick="clearFields()">Reset</button>
-        </section>
-        <section>
-            <table cellpadding="4" id="expenseTable">
-                <thead>
-                    <tr>
-                        <th>Product Name</th> 
-                        <th>Date</th>
-                        <th>Amount</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    
-                </tbody>
-            </table>
-        </section>
+      <section class="inputFieldsSection">
+        <div class="nameInputDiv div">
+          <label>Product Name:</label>
+          <input placeholder="Add item name" id="nameInput" class="fields" />
+        </div>
+        <div class="dateInputDiv div">
+          <label for="Date">Date:</label>
+          <input type="date" class="fields" id="dateInput" />
+        </div>
+        <div class="amountInputDiv div">
+          <label for="number">Amount:</label>
+          <input
+            for="number"
+            class="fields"
+            placeholder="Amount for Item"
+            id="amountInput"
+          />
+        </div>
+        <button id="addButton" draggable="true">Add Expense</button>
+        <button id="resetButton" class="resetButton" onclick="clearFields()">
+          Reset
+        </button>
+      </section>
+      <section>
+        <table cellpadding="4" id="expenseTable">
+          <thead>
+            <tr>
+              <th>Product Name</th>
+              <th>Date</th>
+              <th>Amount</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
     </div>
-    <!-- <span style="font-size: 2rem; color:red;">&#128512;</span>
-    <span style="font-size: 2rem; color: yellow;">&#1212;</span> -->
     <script src="expensetracker.js"></script>
-</body>
+  </body>
 </html>
